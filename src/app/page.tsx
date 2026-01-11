@@ -1,5 +1,6 @@
 import fs from "fs";
 import path from "path";
+import Link from "next/link";
 
 function parseChangelog(): { feature: string; date: string }[] {
   const changelogPath = path.join(process.cwd(), "CHANGELOG.md");
@@ -56,6 +57,12 @@ export default function Home() {
             </span>{" "}
             — a system that lets you build software by sending emails to Claude.
           </p>
+          <Link
+            href="/usage"
+            className="inline-flex items-center justify-center rounded-lg bg-zinc-900 px-6 py-3 text-base font-medium text-white hover:bg-zinc-800 transition-colors dark:bg-zinc-100 dark:text-zinc-900 dark:hover:bg-zinc-200"
+          >
+            View Usage Guide
+          </Link>
         </div>
 
         <div className="flex flex-col gap-6">
