@@ -1,4 +1,21 @@
+```
+  _____ __  __          _____ _            _____ _                 _
+ | ____|  \/  |   /\   |_   _| |          / ____| |               | |
+ | |__ | \  / |  /  \    | | | |  ______ | |    | | __ _ _   _  __| | ___
+ |  __|| |\/| | / /\ \   | | | | |______|| |    | |/ _` | | | |/ _` |/ _ \
+ | |___| |  | |/ ____ \ _| |_| |____     | |____| | (_| | |_| | (_| |  __/
+ |_____|_|  |_/_/    \_\_____|______|     \_____|_|\__,_|\__,_|\__,_|\___|
+```
+
+# EMAIL-Claude
+
+Build software by sending emails to Claude.
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+## About
+
+**email-claude** is a system that lets you build and modify software by sending emails. Every feature in this app was added through email requests to Claude, demonstrating a new way of programming through natural language communication.
 
 ## Getting Started
 
