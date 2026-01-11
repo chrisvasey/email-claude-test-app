@@ -132,6 +132,48 @@ export default function Home() {
             continue to be added the same way.
           </p>
         </div>
+
+        <footer className="w-full border-t border-zinc-200 pt-8 mt-8 dark:border-zinc-800">
+          <div className="flex flex-col gap-4 text-sm text-zinc-600 dark:text-zinc-400">
+            <div className="flex flex-col gap-2 sm:flex-row sm:justify-between sm:items-center">
+              <div className="flex items-center gap-2">
+                <span className="font-medium text-zinc-900 dark:text-zinc-100">
+                  Last Updated:
+                </span>
+                <time
+                  dateTime="2026-01-11T09:41:00.318Z"
+                  className="text-zinc-600 dark:text-zinc-400"
+                >
+                  {new Date("2026-01-11T09:41:00.318Z").toLocaleString()}
+                </time>
+              </div>
+              <div className="flex items-center gap-2">
+                <span className="font-medium text-zinc-900 dark:text-zinc-100">
+                  Contact:
+                </span>
+                <a
+                  href="mailto:test@example.com"
+                  className="text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100 transition-colors"
+                >
+                  test@example.com
+                </a>
+              </div>
+            </div>
+            <div className="flex items-center gap-2">
+              <span className="font-medium text-zinc-900 dark:text-zinc-100">
+                GitHub:
+              </span>
+              <a
+                href="https://github.com/chrisvasey/email-claude-test-app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100 transition-colors underline underline-offset-2"
+              >
+                chrisvasey/email-claude-test-app
+              </a>
+            </div>
+          </div>
+        </footer>
       </main>
     </div>
   );
